@@ -1,1 +1,3 @@
-## SMART TRAFFIC LIGHT DENSITY CONTROL SYSTEM
+## SMART Density-Based Traffic Light Control System
+### ABSTRACT
+In today's world, traffic congestion is a major issue, especially during peak hours. To tackle this problem, we've developed a traffic control system that monitors vehicle numbers and adjusts traffic light timings for smoother flow. This project utilizes a Raspberry Pi + STM32 as the core system. It features two intersections with traffic lights. One intersection uses a Raspberry Pi camera for vehicle counting via object detection. At the same time, the other employs ultrasonic sensors connected to an ESP32 to count vehicles and send data to the cloud. The Raspberry Pi communicates with an STM based on real-time traffic density to modify traffic light timings, reducing congestion and ensuring better traffic flow.
